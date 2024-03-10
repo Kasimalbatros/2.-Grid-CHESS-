@@ -1,0 +1,19 @@
+HTML
+
+
+
+
+<div class="white"></div>                    <!--After 8 div using from top same name Starts again--> 
+   <div class="white"></div>
+
+
+_______________________________________________________________________________________
+CSS
+
+.container{
+  width:800px;        /*All the chess box comes under 800 px horzontally*/
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  /*All 8 boxes column partion 1fr*/ 
+  grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /*All 8 boxes rows partion 1fr*/
+}
+
